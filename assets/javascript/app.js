@@ -159,10 +159,11 @@ $(document).ready(function(){
     resetTime();
 
 // Display Images With Answer
+// Why aren't my images showing????
     function displayImage() {
         if(count === 0) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/podgorica.jpg>');
+            $("#image-holder").html("<img src=/assets/images/podgorica.jpg>");
         }
         else if(count === 1) {
             $("#image-holder").show();
